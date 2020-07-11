@@ -159,7 +159,7 @@ Resources:
                         RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                         StackName: cookiecutterpythoncicd-Beta
                         ChangeSetName: cookiecutterpythoncicd-ChangeSet-Beta
-                        TemplatePath: BuildArtifactAsZip::packaged.yaml
+                        TemplatePath: BuildArtifactAsZip::packagedcookie.yaml
                         Capabilities: CAPABILITY_IAM
                       InputArtifacts:
                         - Name: BuildArtifactAsZip
@@ -191,7 +191,7 @@ Resources:
                         RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                         StackName: cookiecutterpythoncicd-Gamma
                         ChangeSetName: cookiecutterpythoncicd-ChangeSet-Gamma
-                        TemplatePath: BuildArtifactAsZip::packaged.yaml
+                        TemplatePath: BuildArtifactAsZip::packagedcookie.yaml
                         Capabilities: CAPABILITY_IAM
                       InputArtifacts:
                         - Name: BuildArtifactAsZip
@@ -230,7 +230,7 @@ Resources:
                         RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                         StackName: cookiecutterpythoncicd-Prod
                         ChangeSetName: cookiecutterpythoncicd-ChangeSet-Prod
-                        TemplatePath: BuildArtifactAsZip::packaged.yaml
+                        TemplatePath: BuildArtifactAsZip::packagedcookie.yaml
                         Capabilities: CAPABILITY_IAM
                       InputArtifacts:
                         - Name: BuildArtifactAsZip
